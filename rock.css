@@ -1,0 +1,99 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    overflow: scroll;
+}
+
+#whole {
+    /* The image used */
+    background-image: url("background.jpg");
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	border: 2px solid black;
+	padding: 0;
+}
+#main{
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	border: 2px solid black;
+}
+#name{
+	font-size: 80px;
+	margin-top: 50px;
+	border: 2px solid black;
+	text-align: center;
+	margin-right: 0;
+
+}
+#rpic{
+	height: 300px;
+	margin-right: 0;
+}
+#pic1, #pic2{
+	border: 2px solid  black;
+	margin: 0;
+	margin-top: 30px;
+	font-size: 35px;
+}
+#rbutton{
+	height: 120px;
+	border: 2px solid black;
+	margin-right: 0;
+}
+#choose{
+	margin-top: 50px;
+	width: 100px;
+	height: 40px;
+	transition: 1s;
+}
+#choose:hover{
+	height: 50px;
+	width: 120px;
+	margin-top: 40px;
+	font-size: 20px;
+	color: white;
+	text-shadow: 2px 2px 4px black;
+	background-color: rgba(0,123,255,.25);;
+}
+#rwin{
+	margin-right: 0;
+}
+#win{
+	height: 100px;
+	border: 2px solid black;
+	text-align: center;
+	font-size: 25px;
+}
+#pc{
+	text-align: center;
+	display: none;
+}
+#cc{
+	text-align: center;
+	display: none;
+}
+#piccc{
+	height: 200px;
+	width: 200px;
+
+}
+#picpc{
+	width: 200px;
+	height: 200px;
+}
+#foot{
+	text-align: center;
+	height: 30px;
+	margin-bottom: 0;
+	font-size: 15px;
+	bottom: 0;
+	border: 2px solid black;
+}
+
